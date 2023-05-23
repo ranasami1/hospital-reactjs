@@ -1,0 +1,32 @@
+#logo{
+    height: 50px;
+    width: 50px;
+}
+p{
+    display: inline;
+    font-weight: bolder;
+}
+nav .navbar-nav a{
+    font-weight: 70;
+    letter-spacing: 1px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #666 !important;
+}
+nav .navbar-nav a:hover{
+    color: crimson !important;
+}
+nav .navbar-nav svg{
+    text-align: center;
+    
+}
+nav .nav {
+    color: #666 !important;
+    font-size: 14px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+nav .navbar-nav #Link{
+    margin-top:9px;
+
+}

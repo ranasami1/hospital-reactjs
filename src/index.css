@@ -1,0 +1,18 @@
+*{
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+    font-family:cursive;
+}
+button{
+    background-color:crimson;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    transition: .5s ease;
+
+}
+button:hover{
+    color: black;
+    scale: .9; 
+}

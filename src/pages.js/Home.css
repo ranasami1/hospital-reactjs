@@ -1,0 +1,64 @@
+header{
+    margin-top:0px;
+    background-image: url('./../img/4326703-white-background-wallpaper.jpg');
+    background-size: cover;
+    max-height: auto; 
+    letter-spacing: 1px;
+    
+}
+header .row{
+    margin-left: 30px;
+}
+header  img{
+   max-width: 100%;
+   width: 250px;
+   height: auto;
+   margin-top: 50px;
+   animation: img 2s infinite;
+   animation-timing-function: ease;
+   animation-direction: alternate;
+}
+header .row h5{
+    color: crimson;
+    font-weight: 200;
+    margin-top: 80px;
+}
+header .row h2{
+    font-weight:800;
+    padding: 10px 0px;
+    font-size:x-large;
+    width: 80%;
+}
+header .row button{
+    padding: 10px;
+    border-radius: 20px;
+    margin: 15px 0px;
+}
+header .row button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+@keyframes img {
+    0%{
+        transform: translateY(-8px);
+    }
+    100%{
+        transform: translateY(0px);
+
+    }
+    
+}
+#sign2{
+    margin: -300px 10px 0px 200px;
+    display: block;
+    width: 30px;
+    position: absolute;
+}
+#sign1{
+    height: 40px;
+    width: 40px;
+    margin: -215px -45px;
+    display: block;
+    position: absolute;
+}
